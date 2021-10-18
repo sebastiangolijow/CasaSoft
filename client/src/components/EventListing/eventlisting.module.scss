@@ -1,0 +1,71 @@
+.h1 {
+    color:yellow;
+    font-size: small;
+    font-weight: 400;
+}
+
+.card {
+    border:solid;
+    height: auto;
+    width: 50%;
+    background: linear-gradient(#cc1758, #000);
+    margin:5px;
+    padding:5px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height:80rem;
+
+}
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left:6rem;
+    @media only screen and (max-width: 768px)  {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media only screen and (max-width: 480px) {
+    grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.link {
+    outline:none;
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    border-radius: 999px;
+    border:none;
+    background-color: rgb(83, 83, 83);
+    height: 15%;
+    padding:5px;
+    position:relative;
+    width:32%;
+    font-size: 7px;
+    margin:5px;
+    font-weight: 600;
+    &:hover {
+        background-color: yellow;
+        cursor:pointer;
+    }}
+
+
+    .titleCont {
+        background: linear-gradient(#cc1758, #000);
+        width:100%;
+        height:auto;
+        display:flex;
+        flex-direction: column;
+    }
+    
+.title {
+    color: rgb(207, 207, 11);
+    position:relative;
+    @media only screen and (max-width: 480px) {
+        bottom:1rem;
+    }
+}

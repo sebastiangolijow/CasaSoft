@@ -1,0 +1,62 @@
+.button {
+    border-radius: 999px;
+    border:none;
+    background-color: rgb(83, 83, 83);
+    height:auto;
+    padding:5px;
+    position:relative;
+    width:10%;
+    font-size: 10px;
+    margin:5px;
+    font-weight: 700;
+    &:hover {
+        background-color: yellow;
+        cursor:pointer;
+    }
+    @media only screen and (max-width: 480px) {
+        font-size:4px;
+        width:30%;
+        height:20%;
+        margin-bottom: 5px;
+    }
+}
+
+
+.input1 {
+    width:40%;
+    margin:2px;
+    height:20%;
+}
+
+
+.h1 {
+    color:yellow;
+    font-size: small;
+    font-weight: 400;
+}
+
+.card {
+    border:solid;
+    height: 25rem;
+    width: 100%;
+    background: linear-gradient(#cc1758, #000);
+    padding:5px;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.titleCont {
+    background: linear-gradient(#cc1758, #000);
+    width:100%;
+    height:30rem;
+    display:flex;
+    flex-direction: column;
+}
+
+.title {
+color: rgb(207, 207, 11);
+position:relative;
+@media only screen and (max-width: 480px) {
+    bottom:1rem;
+}
+}

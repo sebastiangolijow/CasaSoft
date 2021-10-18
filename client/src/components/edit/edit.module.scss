@@ -1,0 +1,65 @@
+.button {
+    border-radius: 999px;
+    border:none;
+    background-color: rgb(83, 83, 83);
+    height: 15%;
+    padding:5px;
+    position:relative;
+    width:32%;
+    font-size: 7px;
+    margin:5px;
+    font-weight: 600;
+    &:hover {
+        background-color: yellow;
+        cursor:pointer;
+    }
+    @media only screen and (max-width: 480px) {
+        font-size:4px;
+        width:30%;
+        height:20%;
+        margin-bottom: 5px;
+    }
+}
+
+
+.input1 {
+    width:40%;
+    margin:2px;
+}
+
+
+.inputCont{
+    display: flex;
+    flex-direction: column;
+}
+
+.h1 {
+    color:yellow;
+    font-size: small;
+    font-weight: 400;
+}
+
+.card {
+    border:solid;
+    height: auto;
+    width: 50%;
+    background: linear-gradient(#cc1758, #000);
+    margin:5px;
+    padding:5px;
+}
+
+.titleCont {
+    background: linear-gradient(#cc1758, #000);
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.title {
+color: rgb(207, 207, 11);
+position:relative;
+@media only screen and (max-width: 480px) {
+    bottom:1rem;
+}
+}
